@@ -7,16 +7,16 @@ public class Test03 {
 //		그 수들의 총합을 출력...
 //		while 문 이용
 		
-	   int num =1;
-	   int sum = 0;
-	   while(num <= 1000) {
-		   num++;
-		   if((num%2) ==0 && (num%7) == 0) {
-			   System.out.println(num);
-			   sum += num;
-	   }
-	   } System.out.println("총합: " + sum);
-		
+	 int num = 1;
+	 int sum = 0;
+	 
+	 while(num <= 1000) {
+		 if(num%2==0 && num%7==0) {
+			 System.out.println(num);
+			 sum +=num;
+		 }num++;
+	 }
+	 System.out.println("총합: "+ sum);
 		
 			
 		

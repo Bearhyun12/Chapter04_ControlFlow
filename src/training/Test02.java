@@ -6,15 +6,13 @@ public class Test02 {
 //   1~100 출력하고 거꾸로 100~1까지 출력
     	
     	int num = 1;
-    	while(num <= 100) {
+    	while(num<=100) {
     		
-    		System.out.println(num++);
+    		System.out.println(num++);	
     	}
-    	do { System.out.println(--num);
+    	do {System.out.println(--num);
     		
-    	}while(num>1);{
-    		
-    	}
+    	}while(num > 1);
     	
     	
     	

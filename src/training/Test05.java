@@ -10,16 +10,35 @@ public class Test05 {
 		
 //		divOpr(7,3); -> "¸ò: 2, ³ª¸ÓÁö 1"
 		
-	divOpr(7, 3);
-	divOpr(10, 3);
-	divOpr(6, 3);
-	divOpr(4, 3);
-    
+		divOpr(7,3);
+		divOpr(5,10);
+		divOpr(7,4);
 	}
-  
-	private static void divOpr(int i, int j) {
-		System.out.printf("¸ò: %d, ³ª¸ÓÁö: %d\n", i/j, i%j);
+		private static void divOpr(int i, int j) {
+			System.out.printf("¸ò: %d, ³ª¸ÓÁö: %d\n", i/j, i%j);
+		
+			
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+//	divOpr(7, 3);
+//	divOpr(10, 3);
+//	divOpr(6, 3);
+//	divOpr(4, 3);
+//    
+//	}
+//  
+//	private static void divOpr(int i, int j) {
+//		System.out.printf("¸ò: %d, ³ª¸ÓÁö: %d\n", i/j, i%j);
+
 	}
 		
 
-}
+

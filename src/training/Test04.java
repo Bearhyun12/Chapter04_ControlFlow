@@ -7,25 +7,50 @@ public class Test04 {
 //		1000을 넘어서는지,  그리고 1000을 넘어선 값은 얼마인지 구해라
 //		while문, break문 사용
         
-		int sum = 0;
 		int num = 1;
-		
-		
+		int sum = 0;
 		while(true) {
-			// 홀수 조건
-			if(num%2 != 0) {
-				sum += num;
-			}
-			// 홀수의 합이  > 1000
+			//모든 홀수
+			if(num%2 != 0){
+				sum+= num;
+				System.out.println(sum);
+				}
+			//홀수의 합 1000넘나
 			if(sum > 1000) {
-				System.out.println(num + " 더할 때 1000을 넘습니다.");
-				System.out.println("초과된 값: " + sum);
+				System.out.println(num + "더하면 1000넘습니다.");
+				System.out.println("1000을 넘어간 홀수의 값" + sum);
 				break;
-			}
-			
-			num++;
-			
+			}num++;
 		}
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		int sum = 0;
+//		int num = 1;
+//		
+//		
+//		while(true) {
+//			// 홀수 조건
+//			if(num%2 != 0) {
+//				sum += num;
+//			}
+//			// 홀수의 합이  > 1000
+//			if(sum > 1000) {
+//				System.out.println(num + " 더할 때 1000을 넘습니다.");
+//				System.out.println("초과된 값: " + sum);
+//				break;
+//			}
+//			
+//			num++;
+//			
+//		}
 		  
 	}
 
